@@ -1,0 +1,10 @@
+/build/
+/dist/
+/nbproject/private/
+/bkps/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.DS_Store

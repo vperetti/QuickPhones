@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hbernate/Hibernte Mapping DTD//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class dynamic-insert="true" dynamic-update="true" name="quickphones.entity.Contato" table="CONTATO">
+    <id column="ID" name="id" type="long">
+      <generator class="native"/>
+    </id>
+    <property column="NOME" index="NOME" length="255" name="nome" type="string"/>
+    <property column="TELEFONE" index="TELEFONE" length="255" name="telefone" type="string"/>
+    <property column="ENDERECO" index="ENDERECO" length="255" name="endereco" type="string"/>
+    <property column="CEP" index="CEP" length="10" name="cep" type="string"/>
+    <property column="CONTATO" index="CONTATO" length="255" name="contato" type="string"/>
+    <property column="EMAIL" index="EMAIL" length="255" name="email" type="string"/>
+    <property column="OBS" name="obs" type="text"/>
+  </class>
+</hibernate-mapping>
