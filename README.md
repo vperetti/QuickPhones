@@ -123,7 +123,7 @@ QuickPhones/
 
 ## Nota sobre `br.com.perettis.gets`
 
-Este projeto depende da biblioteca `br.com.perettis.gets`, que fornece classes base como `GenericHibernateDAO`, `DAOFactoryAbstract`, `CryptoMD5` e utilitários Swing (`OnEnterTab`). Esta biblioteca **não está incluída no repositório** e não está disponível em repositórios Maven públicos. Para compilar o projeto, você precisará fornecer esta dependência manualmente ou reimplementar as classes utilizadas.
+Este projeto depende da biblioteca `br.com.perettis.gets`, que fornece classes base como `GenericHibernateDAO`, `DAOFactoryAbstract`, `CryptoMD5` e utilitários Swing (`OnEnterTab`). O código-fonte da biblioteca está disponível em: **https://github.com/vperetti/gets4java**
 
 ## Aviso de segurança
 
